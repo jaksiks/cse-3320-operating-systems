@@ -1,0 +1,55 @@
+https://gyazo.com/1d54210f701e774f1aa905d398a02c64
+Thread A is student, Thread B is Professor 
+
+ask question
+- sleeps for time to ask a question
+
+classa_enter
+/* TODO */
+  /* Request permission to enter the office.  You might also want to add  */
+  /* synchronization for the simulations variables below                  */
+  /*  YOUR CODE HERE. 
+
+classa_leave 
+how students leave the class
+
+classb_enter
+/* TODO */
+  /* Request permission to enter the office.  You might also want to add  */
+  /* synchronization for the simulations variables below                  */
+  /*  YOUR CODE HERE. 
+
+classb_leave
+how students leave the class
+
+classa_student
+student enters class ie trys to join prof thread 
+asks question 
+leaves
+exits thread
+
+classb_student
+same as a student
+
+init
+- inits variables and reads in datafile to init 
+    students array
+
+main
+
+professorThread
+/* Add code here to handle the student's request.             */
+    /* Currently the body of the loop is empty. There's           */
+    /* no communication between professor and students, i.e. all  */
+    /* students are admitted without regard of the number         */ 
+    /* of available seats, which class a student is in,           */
+    /* and whether the professor needs a break. You need to add   */
+    /* all of this. 
+
+take_break
+- simulates taking a taking a break 
+- sets students in office to 0, sleeps 5, resets students since break
+
+semaphores
+sem_wait - try to get into a thread, wait otherwise
+sem_post when leaving
