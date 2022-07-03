@@ -4,7 +4,7 @@ Functions  and  components  of  an  operating  system,including process synchron
 
 ## Assignments
 
-1.  [Shell](https://github.com/Vitmont/cse-3320/tree/master/HW/P1)
-2.  [Threading](https://github.com/Vitmont/cse-3320/tree/master/HW/P2)
-3.  [Page Faults](https://github.com/Vitmont/cse-3320/tree/master/HW/P3)
-4.  [FAT32](https://github.com/Vitmont/cse-3320/tree/master/HW/P4)
+1.  [Shell](https://github.com/Vitmont/cse-3320-operating-systems/tree/master/HW/P1)
+2.  [Threading](https://github.com/Vitmont/cse-3320-operating-systems/tree/master/HW/P2)
+3.  [Page Faults](https://github.com/Vitmont/cse-3320-operating-systems/tree/master/HW/P3)
+4.  [FAT32](https://github.com/Vitmont/cse-3320-operating-systems/tree/master/HW/P4)
